@@ -1,10 +1,14 @@
 # Crowdfunding_ETL
 
 In this project, we have collaborated to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions. This project will involve the following steps:
-        1. **Extract and Transform the Data**: Use Python tools and techniques to extract raw data and transform it into a usable format.
-        2. **Create CSV Files**: Generate four CSV files from the transformed data.
-        3. **Create an ERD and Table Schema**: Design an Entity-Relationship Diagram (ERD) and define a table schema based on the CSV file data.
-        4. **Upload Data to Postgres Database**: Import the CSV data into a PostgreSQL database.
+
+        1.Extract and Transform the Data: Use Python tools and techniques to extract raw data and transform it into a usable format.
+        
+        2. Create CSV Files: Generate four CSV files from the transformed data.
+        
+        3. Create an ERD and Table Schema: Design an Entity-Relationship Diagram (ERD) and define a table schema based on the CSV file data.
+        
+        4. Upload Data to Postgres Database: Import the CSV data into a PostgreSQL database.
 
 ## Create the Category and Subcategory DataFrames
 
