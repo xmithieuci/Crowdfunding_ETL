@@ -1,30 +1,31 @@
 # Crowdfunding_ETL
 
 In this project, we have collaborated to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions. This project will involve the following steps:
-        1. **Extract and Transform the Data**: Use Python tools and techniques to extract raw data and transform it into a usable format.
         
-        2. **Create CSV Files**: Generate four CSV files from the transformed data.
+1. **Extract and Transform the Data**: Use Python tools and techniques to extract raw data and transform it into a usable format.
+       
+2. **Create CSV Files**: Generate four CSV files from the transformed data.
         
-        3. **Create an ERD and Table Schema**: Design an Entity-Relationship Diagram (ERD) and define a table schema based on the CSV file data.
+3. **Create an ERD and Table Schema**: Design an Entity-Relationship Diagram (ERD) and define a table schema based on the CSV file data.
         
-        4. **Upload Data to Postgres Database**: Import the CSV data into a PostgreSQL database.
+4. **Upload Data to Postgres Database**: Import the CSV data into a PostgreSQL database.
 
 
 ## Create the Category and Subcategory DataFrames
 
 Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
 
-        A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
+        * A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 
-        A "category" column that contains only the category titles
+        * A "category" column that contains only the category titles
 
 Export the category DataFrame as category.csv and save it to your GitHub repository.
 
 Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns:
 
-        A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
+        * A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
         
-        A "subcategory" column that contains only the subcategory titles
+        * A "subcategory" column that contains only the subcategory titles
         
 Export the subcategory DataFrame as subcategory.csv and save it to the repository.
 
